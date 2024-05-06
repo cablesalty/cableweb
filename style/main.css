@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.placeholderText {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.placeholderSubtext {
+    color: #707070;
+    font-size: 18px;
+    text-align: center;
+}
