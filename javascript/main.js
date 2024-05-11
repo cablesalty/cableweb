@@ -5,7 +5,7 @@ classicmodeicon.addEventListener("mouseover", () => {
     classicmodetext.style.display = "inline";
 });
 
-classicmodeicon.addEventListener("mouseout", () => {
+classicmodeicon.addEventListener("mouseleave", () => {
     classicmodetext.style.display = "none";
 }); 
 
