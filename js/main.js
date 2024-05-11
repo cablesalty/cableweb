@@ -9,6 +9,6 @@ classicmodeicon.addEventListener("mouseleave", () => {
     classicmodetext.style.display = "none";
 }); 
 
-classicmodeicon.addEventListener("onclick", () => {
+classicmodeicon.addEventListener("click", () => {
     window.location.href = "/classic.php";
 });
