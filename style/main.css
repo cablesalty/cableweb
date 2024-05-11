@@ -59,3 +59,9 @@ a:hover {
 .center {
     text-align: center;
 }
+
+.center p {
+    margin: 0 auto;
+    width: 60%;
+    font-size: 28px;
+}
