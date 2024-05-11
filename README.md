@@ -1,4 +1,3 @@
-# Still under development!
-Still deciding if I should use reactjs or php.
-
-There is just a placeholder on the site for now.
+<h1 style="text-align: center">cableweb (cablesalty.com)</h1>
+<h3 style="text-align: center">Personal Website</h3>
+<img style="text-align: center" src="header.png">
