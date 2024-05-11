@@ -10,5 +10,9 @@ classicmodeicon.addEventListener("mouseleave", () => {
 }); 
 
 classicmodeicon.addEventListener("click", () => {
-    window.location.href = "/classic.php";
+    if (window.location.href.endsWith("classic.php")) {
+        window.location.href = "/index.php";
+    } else {
+        window.location.href = "/classic.php";
+    }
 });
