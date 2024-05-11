@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/style/classic.css">
     <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/2c53a1c7fb.js" crossorigin="anonymous"></script>
-    <script src="/javascript/main.js" defer></script>
+    <script src="/js/main.js" defer></script>
     <title>cablesalty</title>
 </head>
 
