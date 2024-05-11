@@ -14,7 +14,7 @@
     <div class="navbar">
         <a href="/">Homepage</a>
         <a href="/serverinfo">Server info</a>
-        <a href="https://github.com/cablesalty">Github</a>
+        <a href="https://github.com/cablesalty">GitHub</a>
         <a href="">Discord</a>
         <a href="https://github.com/cablesalty/cableweb">View source code</a>
     </div>
