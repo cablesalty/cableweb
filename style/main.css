@@ -65,3 +65,13 @@ a:hover {
     width: 60%;
     font-size: 28px;
 }
+
+.classicmodeicon {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+
+it {
+    display: inline;
+}

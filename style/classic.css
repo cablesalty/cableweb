@@ -1,0 +1,16 @@
+.header {
+    text-align: center;
+    line-height: 0.7;
+}
+
+.classicmodeicon {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+it {
+    display: inline;
+}
