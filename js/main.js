@@ -1,18 +1,15 @@
-const classicmodeicon = document.getElementById("classicmodeicon");
-const classicmodetext = document.getElementById("classicmodetext");
+function mobilemenu() {
+    var x = document.getElementById("navbar");
 
-classicmodeicon.addEventListener("mouseover", () => {
-    classicmodetext.style.display = "inline";
-});
-
-classicmodeicon.addEventListener("mouseleave", () => {
-    classicmodetext.style.display = "none";
-}); 
-
-classicmodeicon.addEventListener("click", () => {
-    if (window.location.href.endsWith("classic.php")) {
-        window.location.href = "/index.php";
+    if (x.style.display === "block") {
+        console.log("Hidden menu");
+        x.style.display = "none";
     } else {
-        window.location.href = "/classic.php";
+        console.log("Menu is now shown");
+        x.style.display = "block";
     }
-});
+}
+
+document.getElementById("mobilemenuicon").addEventListener("click", () => {
+    mobilemenu();
+})

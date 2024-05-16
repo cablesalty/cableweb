@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+
 * {
     margin: 0;
     padding: 0;
@@ -27,6 +35,7 @@ a:hover {
 .navbar {
     text-align: center;
     margin-top: 30px;
+    width: 100%;
 }
 
 .navbar a {
@@ -66,12 +75,37 @@ a:hover {
     font-size: 28px;
 }
 
-.classicmodeicon {
-    position: fixed;
-    right: 10px;
-    top: 10px;
-}
-
 it {
     display: inline;
+}
+
+#mobilemenuicon {
+    display: none;
+}
+
+@media only screen and (max-width: 650px) {
+    .navbar {
+        display: none;
+    }
+
+    .navbar a {
+        /* width: 93%; */
+        width: 100%;
+        text-align: left;
+        background-color: #303030;
+        color: white;
+        border-radius: 0px;
+        display: block;
+        /* margin-left: auto;
+        margin-right: auto; */
+        /* margin-top: 10px; */
+    }
+
+    #mobilemenuicon {
+        display: block;
+        position: fixed;
+        font-size: 30px;
+        top: 10px;
+        right: 10px;
+    }
 }

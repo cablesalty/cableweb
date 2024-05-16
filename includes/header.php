@@ -10,10 +10,11 @@
     <title>cablesalty</title>
 </head>
 
-<div class="header">
+<div class="header" id="navheader">
+    <a href="javascript:void(0)" id="mobilemenuicon"><i class="fa-solid fa-bars"></i></a>
     <h1 class="title">cablesalty</h1>
     <h2 class="subtitle">under construction...</h2>
-    <div class="navbar">
+    <div class="navbar" id="navbar">
         <a href="/">Homepage</a>
         <a href="/serverinfo">Server info</a>
         <a href="https://github.com/cablesalty">GitHub</a>
