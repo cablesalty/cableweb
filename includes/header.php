@@ -20,9 +20,4 @@
         <a href="">Discord</a>
         <a href="https://github.com/cablesalty/cableweb">View source code</a>
     </div>
-
-    <h3 class="classicmodeicon" id="classicmodeicon">
-        <it style="display: none" id="classicmodetext">Try <it style="color: #E5D9C7">classic mode</it></it>
-        <i class="fa-solid fa-computer"></i>
-    </h3>
 </div>
