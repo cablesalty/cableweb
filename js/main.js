@@ -12,4 +12,4 @@ function mobilemenu() {
 
 document.getElementById("mobilemenuicon").addEventListener("click", () => {
     mobilemenu();
-})
+});

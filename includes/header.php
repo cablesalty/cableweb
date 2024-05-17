@@ -12,6 +12,7 @@
 
 <div class="header" id="navheader">
     <a href="javascript:void(0)" id="mobilemenuicon"><i class="fa-solid fa-bars"></i></a>
+    <a href="/cpanel" class="cpanelicon"><i class="fa-solid fa-user-tie"></i></a>
     <h1 class="title">cablesalty</h1>
     <h2 class="subtitle">under construction...</h2>
     <div class="navbar" id="navbar">
