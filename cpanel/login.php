@@ -1,12 +1,13 @@
 <?php
-    $PAGEURL = "https://cablesalty.com/cpanel/index.php";
+    //$PAGEURL = "https://cablesalty.com/cpanel/index.php";
     //$PAGEURL = "http://0.0.0.0:8080/cpanel/index.php";
+    $PAGEURL = "/cpanel/index.php";
 
     session_start();
 
     if (isset($_SESSION['loggedin']) && $_SESSION["loggedin"] === true) {
         echo "You are already logged in!, redirecting...";
-        header("Location: " . $PAGEURL);
+        header("Location: $PAGEURL");
         die();
     } else {
         echo "You are not logged in.";

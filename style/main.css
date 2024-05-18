@@ -91,6 +91,18 @@ it {
     left: 10px;
 }
 
+.post {
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid #202020;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #101010;
+}
+
 @media only screen and (max-width: 650px) {
     .navbar {
         display: none;
@@ -102,7 +114,7 @@ it {
         text-align: left;
         background-color: #303030;
         color: white;
-        border-radius: 0px;
+        border-radius: 0;
         display: block;
         /* margin-left: auto;
         margin-right: auto; */
@@ -124,5 +136,9 @@ it {
     .center p {
         width: 95%;
         font-size: 25px;
+    }
+
+    .post {
+        width: 90%;
     }
 }
